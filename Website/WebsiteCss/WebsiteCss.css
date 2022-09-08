@@ -52,7 +52,7 @@ p {
 /*-----------------------Control the Parallax and Logo-----------------------*/
 .parallax{
   /* The image used */
-  background-image:      url("../Photos/blackhole.jpg");
+  background-image:      url("../Photos/Personal/Bl_moon_top3.jpg");
   background-size:       100% 22em;
 
   /* Scale */
@@ -204,17 +204,16 @@ p {
 
 .H-left h1{text-align: center;}
 
-.H-left a:visited{color: blue;}
-
 /* Control the Self Portrait*/
+
 .H-selfie{
     float: right;
     display:          block;
     margin-left:      auto;
     margin-right:     auto;
-    width:            22.89999999%;
-    height:           18em;
-    padding:          2em 0em 0em 0em;
+    width:            24%;
+    height:           17%;
+    padding:          2% 0% 0% 0%;
     background-color: rgb(255,255,255);
     overflow: hidden;
 }
@@ -466,9 +465,32 @@ p {
 
 /*-----------------------ABOUT-----------------------*/
 /*Control the Informational Columns*/
+.A-Images{
+    float: right;
+    display:          block;
+    margin-left:      auto;
+    margin-right:     auto;
+    width:            100%;
+    height:           100%;
+    padding:          2% 0% 0% 0%;
+    background-color: rgb(255,255,255);
+    overflow: hidden;
+}
+
+.A-Images img {
+    border:   0.1em black solid;
+    max-width:  100%;
+    max-height: 100%;
+}
+
+
+.A-right table{ margin-left: 5%;}
+.A-right td{padding: 0.5em;}
+.A-right th{padding: 0.5em;}
+
 .A-right{
     margin:           0;
-    width:            55%;
+    width:            70%;
     height:           auto%;
     background-color: rgba(255,255,255,0.7);
     position:         relative;
@@ -479,11 +501,11 @@ p {
 }
 .A-right h1{
     padding:   5% 0% 5% 5%;
-    font-size: 150%;
+    font-size: 200%;
 }
 .A-right h2{
     padding:   0% 0% 0% 5%;
-    font-size: 130%;
+    font-size: 180%;
 }
 .A-left{
     float: left;
@@ -496,6 +518,8 @@ p {
     border-right:     1px dotted;
 }
 .A-left a:visited{color: blue;}
+
+
 
 
 
