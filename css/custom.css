@@ -52,7 +52,7 @@ p {
 /*-----------------------Control the Parallax and Logo-----------------------*/
 .parallax{
   /* The image used */
-  background-image:      url("../Photos/Personal/Bl_moon_top3.jpg");
+  background-image:      url("../photos/Personal/Bl_moon_top3.jpg");
   background-size:       100% 22em;
 
   /* Scale */
@@ -437,7 +437,7 @@ p {
     text-align:         center;
     background-color:   none;
     background-repeat:  no-repeat;
-    background-image:   url("../Photos/button.png");
+    background-image:   url("../photos/button.png");
     background-size:    100% 100%;
 }
 .T-course-button p{
