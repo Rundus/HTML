@@ -50,20 +50,15 @@ p {
 
 
 /*-----------------------Control the Parallax and Logo-----------------------*/
-.parallax{
-  /* The image used */
-  background-image:      url("../photos/Personal/Bl_moon_top3.jpg");
-  background-size:       100% 22em;
 
-  /* Scale */
+/*NOTE: .css file paths for images are relative to the .css file ITSELF */
+.parallax{
+  background-image:      url("../photos/logos/ACESII_EFI_logo.png");
+  background-size:       100% 30em;
   height:                18em;
   width:                 100%em;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  /*background-position:   center;*/
   background-repeat:     no-repeat;
-  /*background-size:       cover;*/
 }
 
 
@@ -86,7 +81,7 @@ p {
 }
 
 
-/*-----------------------Control the Content Rows-----------------------*/
+/*----- CLASS: row -----*/
 .row{
   display:        flex;
   flex-direction: row;
@@ -101,19 +96,18 @@ p {
 }
 
 
-/*-----------------------Control the Side items CSS-----------------------*/
+/*----- CLASS: event-Items -----*/
 
-#events h1{font-size: 1em;}
-
-.side-item{
+.event-Items{
     font-family:   Verdana,"Times New Roman",Times;
     padding:       1em;
     border-bottom: 1px dotted;
 }
-.side-item p,a{font-size:    0.7em;}
-.side-item h1,h2,h3{font-size: 0.8em;}
-.side-item a{text-decoration: none;}
-.side-item a:hover{text-decoration: underline;}
+.event-Items h1{font-size: 1.2em;}
+.event-Items p,a{font-size:    0.7em;}
+.event-Items h2,h3{font-size: 0.8em;}
+.event-Items a{text-decoration: none;font-size:0.5em;}
+.event-Items a:hover{text-decoration: underline;}
 
 
 
@@ -146,7 +140,7 @@ p {
 
 #navigation a:visited{color: none;}
 
-/*-----------------------Control the copyright-----------------------*/
+/*----- CLASS: copyright -----*/
 .copyright{
   height:           auto%;
   text-align:       center;
@@ -159,39 +153,12 @@ p {
 }
 
 
+/*#############################*/
+/*----- PAGE-SPECIFIC CSS -----*/
+/*#############################*/
 
-
-
-
-/*--------------------------PAGE SPECIFIC CSS--------------------------*/
-
-/*-----------------------HOME-----------------------*/
-
-/*Control the Informational Columns*/
-.H-right{
-    margin:           0em;
-    width:            55%;
-    height:           auto%;
-    background-color: rgba(255,255,255,0.7);
-    position:         relative;
-}
-
-.H-right p{
-    line-height: 170%;
-    padding:     5%;
-}
-
-.H-right h1{
-    padding:   5% 0% 5% 5%;
-    font-size: 200%;
-}
-
-.H-right h2{
-    padding:   0% 0% 0% 5%;
-    font-size: 100%;
-}
-
-.H-left{
+/*----- GENERAL Page-----*/
+.GeneralPage-left{
     float:            left;
     margin:           0;
     width:            16%;
@@ -202,9 +169,33 @@ p {
     border-right:     1px dotted;
 }
 
-.H-left h1{text-align: center;}
+.GeneralPage-left a:visited{color: blue;}
 
-/* Control the Self Portrait*/
+.GeneralPage-right{
+    margin:           0em;
+    width:            55%;
+    height:           auto%;
+    background-color: rgba(255,255,255,0.7);
+    position:         relative;
+}
+
+.GeneralPage-right p{
+    line-height: 170%;
+    padding:     5%;
+}
+
+.GeneralPage-right h1{
+    padding:   5% 0% 5% 5%;
+    font-size: 200%;
+}
+
+.GeneralPage-right h2{
+    padding:   0% 0% 0% 5%;
+    font-size: 100%;
+}
+
+
+/*----- HOME PAGE-----*/
 
 .H-selfie{
     float: right;
@@ -227,67 +218,38 @@ p {
 
 
 
-
-
-
-
-/*-----------------------RESEARCH-----------------------*/
+/*----- RESEARCH -----*/
 
 /*Control the Informational Columns*/
-.R-right{
-    margin:           0;
-    width:            55%;
-    height:           auto%;
-    background-color: rgba(255,255,255,0.7);
-    position:         relative;
-}
-.R-right p{
+.ResearchPage-right p{
     line-height: 150%;
     padding:     0% 0% 0% 5%;
 }
-.R-right h1{
+.ResearchPage-right h1{
     padding:   5% 0% 5% 5%;
     font-size: 150%;
 }
-.R-right h2,h3{
+.ResearchPage-right h2,h3{
     padding:   0% 0% 0% 5%;
     font-size: 130%;
 }
-.R-right h3{
+.ResearchPage-right h3{
     padding: 0% 0% 5% 0%;
     font-size: 100%;
 }
-.R-right ul{list-style-type:none;}
-.R-right a{
+.ResearchPage-right ul{list-style-type:none;}
+.ResearchPage-right a{
     color:     blue;
     padding:   0% 0% 0% 6%;
     font-size: 100%;
     text-decoration: none;
 }
-.R-right a:hover{text-decoration:underline;}
-.R-right a:visited{color: blue;}
-
-
-
-.R-left{
-    float: left;
-    margin:           0;
-    width:            16%;
-    height:           auto%;
-    background-color: rgba(215,215,215);
-    padding:          2%;
-    position:         relative;
-    border-right:     1px dotted;
-}
-.R-left a:visited{color: blue;}
-.R-right ol{padding: 0% 0% 0% 7%;}
-
-
-
-
+.ResearchPage-right a:hover{text-decoration:underline;}
+.ResearchPage-right a:visited{color: blue;}
+.ResearchPage-right ol{padding: 0% 0% 0% 7%;}
 
 /* Control the Rocket Portrait*/
-.R-Rocket{
+.ResearchPage-photos{
     float: right;
     display:          block;
     margin-left:      auto;
@@ -299,18 +261,18 @@ p {
     overflow: hidden;
 }
 
-.R-Rocket img {
+.ResearchPage-photos img {
     border:   0.1em black solid;
     max-width:  80%;
     max-height: 80%;
 }
-
 #Interest li{padding: 0% 0% 0% 2%;}
 
 
+/*----- PUBLICATIONS -----*/
 
 
-/*-----------------------TEACHING-----------------------*/
+/*----- TEACHING -----*/
 
 /*Control the Informational Columns*/
 .T-right{
@@ -372,9 +334,8 @@ p {
 
 
 
-/*-------------TEACHING - COURSES-------------*/
 
-
+/*----- TEACHING - COURSES -----*/
 
 /*---Physics 1511-Main- Fall 2019---*/
 .T-course-right{
@@ -437,7 +398,7 @@ p {
     text-align:         center;
     background-color:   none;
     background-repeat:  no-repeat;
-    background-image:   url("../photos/button.png");
+    background-image:   url("photos/assets/button.png");
     background-size:    100% 100%;
 }
 .T-course-button p{
@@ -463,7 +424,7 @@ p {
 
 
 
-/*-----------------------ABOUT-----------------------*/
+/*----- ABOUT -----*/
 /*Control the Informational Columns*/
 .A-Images{
     float: right;
@@ -482,7 +443,6 @@ p {
     max-width:  100%;
     max-height: 100%;
 }
-
 
 .A-right table{ margin-left: 5%;}
 .A-right td{padding: 0.5em;}
@@ -518,18 +478,14 @@ p {
     border-right:     1px dotted;
 }
 .A-left a:visited{color: blue;}
+.A-left p{font-size: 0.75em;}
+.A-left h2{font-size: 1em;}
 
 
 
 
 
-
-
-
-
-
-
-/*-----------------------CONTACT-----------------------*/
+/*----- CONTACT -----*/
 .C-right{
     margin:           0;
     width:            55%;
