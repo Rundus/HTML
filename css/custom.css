@@ -110,7 +110,7 @@ p {
     height: 4em;
     background-color:   none;
     background-repeat:  no-repeat;
-    background-image:   url("../photos/assets/button.png");
+    background-image:   url("/HTML/photos/assets/button.png");
     background-size:    100% 50%;
     font-size: 2.5em;
     font-weight: bold;
@@ -441,7 +441,7 @@ p {
     text-align:         center;
     background-color:   none;
     background-repeat:  no-repeat;
-    background-image:   url("photos/assets/button.png");
+    background-image:   url("/HTML/photos/assets/button.png");
     background-size:    100% 100%;
 }
 .T-course-button p{
