@@ -49,7 +49,7 @@ p {
 /*----- CLASS: commonTitle -----*/
 /*NOTE: .css file paths for images are relative to the .css file ITSELF */
 .commonTitle{
-  background-image:      url("../photos/logos/ACESII_EFI_logo.png");
+  background-image:      url("/HTML/photos/logos/ACESII_EFI_logo.png");
   background-size:       100% 30em;
   height:                18em;
   width:                 100%em;
