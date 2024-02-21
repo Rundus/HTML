@@ -3,19 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>The Homepage of Connor A. Feltman</title>
-        <link href = "../css/custom.css" rel="stylesheet">
+        <link href = "/HTML/css/custom.css" rel="stylesheet">
+
+        <!--MathJax LaTeX Packages and Load MathJax-->
+        <script type="text/javascript"  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
     </head>
 
     <body>
 
         <!-- Top of Page Content-->
         <!--Header-->
-        <script src="../js/header.js"></script>
+        <script src="/HTML/js/header.js"></script>
 
         <!-- Background image -->
         <div class="commonTitle">
             <!--Main title text and Navigation tabs -->
-            <script src="../js/commonTitle.js"></script>
+            <script src="/HTML/js/navBar_and_commonTitle.js"></script>
         </div>
 
         <!-- Page Main Content-->
@@ -39,6 +42,21 @@
             <!--Main Right Column-->
             <div class="GeneralPage-right">
                 <h1>Page Title<hr></h1>
+                <p>This is some test math:
+                    \[y = mx + b \tag{1}\]
+
+                    Look at all the cool stuff I can do:
+
+                    \[ \int_{a}^{b} x dx = \frac{1}{2}x^{2} + c \Big|_{a}^{b}\]
+                </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

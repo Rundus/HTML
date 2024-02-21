@@ -4,151 +4,168 @@
     <head>
         <meta charset="UTF-8">
         <title>The Homepage of Connor A. Feltman</title>
-        <link href = "../css/custom.css" rel="stylesheet">
+        <link href = "../../css/custom.css" rel="stylesheet">
     </head>
 
 
     <body>
         <!-- Top of Page Content-->
         <!--Header-->
-        <script src="../js/header.js"></script>
+        <script src="../../js/header.js"></script>
 
-        <!-- Background image -->
-        <div class="commonTitle">
-            <!--Main title text and Navigation tabs -->
-            <script src="../js/commonTitle.js"></script>
-        </div>
-
-
-
+        <!--Main title text and Navigation tabs -->
+        <script src="../../js/navBar_and_commonTitle.js"></script>
 
         <!-- Informational Columns-->
         <div class="row">
 
             <!--Main Left Column-->
-            <div class="A-left">
-                <div id="events">
+            <!--Main Left Column-->
+            <div class="GeneralPage-left">
+                <!-- Event list title-->
+                <div class="event-Items">
                     <h1>Major Life Events</h1>
-                    <br>
-                    <hr>
                 </div>
 
-
-                <!--Item-->
-                <div class="side-item top">
+                <div class="event-Items">
                     <h2>August 2023</h2>
-                    <p>Craig Kletzing passes away.</p>
+                    <a href="https://now.uiowa.edu/news/2023/08/renowned-iowa-physics-professor-researcher-craig-kletzing-dies"><p>Craig Kletzing passes away.</p></a>
                 </div>
 
-                <!--Item-->
-                <div class="side-item top">
+                <div class="event-Items">
                     <h2>Spring 2023 </h2>
                     <p>Diksha graduates with her Ph.D. in particle physics.</p>
                 </div>
 
-                <!--Item-->
-                <div class="side-item top">
+                <div class="event-Items">
                     <h2>Fall 2022 </h2>
                     <p>Obtained Appa from a barn in Wisconsin</p>
                 </div>
 
-                <!--Item-->
-                <div class="side-item top">
+                <div class="event-Items">
                     <h2>Early 2021</h2>
                     <p>Obtained Momo from a shelter</p>
                 </div>
 
-                <!--Item-->
-                <div class="side-item middle">
+                <div class="event-Items">
                     <h2>Spring 2019</h2>
                     <p>Connor meets Diksha in graduate school</p>
                 </div>
 
-                <!--Item-->
-                <div class="side-item bottom">
+                <div class="event-Items">
                     <h2>Fall 2018 </h2>
                     <p>Started Ph.D. under Craig Kletzing and Scott Bounds. Didn't know what I wanted to study! </p>
                 </div>
             </div>
 
+
             <!--Main Right Column-->
-            <div class="A-right">
-                <h1>About <hr></h1>
-                <div class="A-Images">
-                    <h2>photos from our telescope</h2>
-                    <table>
-                        <tbody>
-                        <tr><!--Telescope photos-->
-                            <td><img src="../photos/personal/Bl_moon_broll.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>
-                            <td><img src="../photos/personal/Bl_moon_top3.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>
-                            <td><img src="../photos/personal/Bl_moon_full.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="../photos/personal/Bl_moon_side.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>
-                            <td><img src="../photos/personal/moon_phone.jpg" alt=""><p>Eau Claire, WI, Apr 21 2018</p></td>
-                            <td><img src="../photos/personal/juipterMoons.jpg" alt=""><p>Juipter's Moons during closest approach, Iowa City, IA, Sept 27, 2022</p></td>
-                        </tr>
-                        </tbody>
-                    </table>
+            <div class="GeneralPage-right">
+                <h1>Image Gallery <hr></h1>
+                <div class="imageGallery_Research">
+                  <ul class="img-grid">
+                      <li>
+                        <a href="subpages/soundingRockets.html" class="overlay-container" data-overlay-text="Photos from our telescope">
+                            <img src="/HTML/photos/personal/Bl_moon_broll.jpg" alt="BloodMoon" class="overlay-img">
+                        </a>
+                      </li>
 
-                    <!--Momo-->
-                    <br><br><br>
-                    <h1>Momo</h1>
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td><img src="../photos/personal/momo_closeup.jpg" alt=""><p>Nov 26, 2021</p></td>
-                            <td><img src="../photos/personal/momo_sleep.jpg" alt=""><p>Aug 13, 2022</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="../photos/personal/momo_birthday.jpg" alt=""><p>Feb 14, 2022</p></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                      <li>
+                        <a href="subpages/soundingRockets.html" class="overlay-container" data-overlay-text="Auroral Photography">
+                            <img src="/HTML/photos/personal/AndoyaAurora.jpg" alt="AuroralPhotographer" class="overlay-img">
+                        </a>
+                      </li>
 
-                    <!--Appa-->
-                    <br><br><br>
-                    <h1>Appa</h1>
-                    <table>
-                        <tbody>
-                        <tr><!--Momo-->
-                            <td><img src="../photos/personal/appaCloseup.jpg" alt=""><p>Feb 26, 2023</p></td>
-                            <td><img src="../photos/personal/appaUmbrella.jpg" alt=""><p>June 24, 2023</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="../photos/personal/appaAndMomo.jpg" alt=""><p>Aug 6th, 2023</p></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <br><br><br>
+                      <li>
+                        <a href="#" class="overlay-container" data-overlay-text="Diksha and Connor Adventures">
+                            <img src="/HTML/photos/personal/engagement.jpg" alt="Our Engagement on the Roof of Van Allen" class="overlay-img">
+                        </a>
+                      </li>
 
+                      <li>
+                        <a href="#" class="overlay-container" data-overlay-text="Our Cats">
+                            <img src="/HTML/photos/personal/appaAndMomo.jpg" alt="Our Fluffy bois" class="overlay-img" />
+                        </a>
+                      </li>
 
-                    <!--Life-->
-                    <h1>Life</h1>
-                    <table>
-                        <tbody>
-                        <tr><!--Diksha and Connor-->
-                            <td><img src="../photos/personal/2018_graduation.jpg" alt=""><p>Spring 2018</p></td>
-                            <td><img src="../photos/personal/D&C_christmas_2020.jpg" alt=""><p>Windter 2020</p></td>
-                        </tr>
-                        <tr>
-                            <td><img src="../photos/personal/bridenstine.jpg" alt=""><p>Aug 6th, 2023</p></td>
-                            <td><img src="../photos/personal/bridenstine.jpg" alt=""><p>Aug 6th, 2023</p></td>
-                        </tr>
-                        </tbody>
-                    </table>
+                      <li>
+                        <a href="#" class="overlay-container" data-overlay-text="Interesting Stuff">
+                            <img src="/HTML/photos/personal/bridenstine.jpg" alt="ACESII Energetic Electron and Pitch Angle Analyzer" class="overlay-img" />
+                        </a>
+                      </li>
 
+                  </ul>
                 </div>
 
             </div>
 
+<!--            <table>-->
+<!--                <tbody>-->
+<!--                <tr>&lt;!&ndash;Telescope photos&ndash;&gt;-->
+<!--                    <td><img src="../photos/personal/Bl_moon_broll.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>-->
+<!--                    <td><img src="../photos/personal/Bl_moon_top3.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>-->
+<!--                    <td><img src="../photos/personal/Bl_moon_full.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td><img src="../photos/personal/Bl_moon_side.jpg" alt=""><p>Iowa City, IA, May 15 2022</p></td>-->
+<!--                    <td><img src="../photos/personal/moon_phone.jpg" alt=""><p>Eau Claire, WI, Apr 21 2018</p></td>-->
+<!--                    <td><img src="../photos/personal/juipterMoons.jpg" alt=""><p>Juipter's Moons during closest approach, Iowa City, IA, Sept 27, 2022</p></td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
+<!--            </table>-->
+
+<!--            &lt;!&ndash;Momo&ndash;&gt;-->
+<!--            <br><br><br>-->
+<!--            <h1>Momo</h1>-->
+<!--            <table>-->
+<!--                <tbody>-->
+<!--                <tr>-->
+<!--                    <td><img src="../photos/personal/momo_closeup.jpg" alt=""><p>Nov 26, 2021</p></td>-->
+<!--                    <td><img src="../photos/personal/momo_sleep.jpg" alt=""><p>Aug 13, 2022</p></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td><img src="../photos/personal/momo_birthday.jpg" alt=""><p>Feb 14, 2022</p></td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
+<!--            </table>-->
+
+<!--            &lt;!&ndash;Appa&ndash;&gt;-->
+<!--            <br><br><br>-->
+<!--            <h1>Appa</h1>-->
+<!--            <table>-->
+<!--                <tbody>-->
+<!--                <tr>&lt;!&ndash;Momo&ndash;&gt;-->
+<!--                    <td><img src="../photos/personal/appaCloseup.jpg" alt=""><p>Feb 26, 2023</p></td>-->
+<!--                    <td><img src="../photos/personal/appaUmbrella.jpg" alt=""><p>June 24, 2023</p></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td><img src="../photos/personal/appaAndMomo.jpg" alt=""><p>Aug 6th, 2023</p></td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
+<!--            </table>-->
+<!--            <br><br><br>-->
+
+
+<!--            &lt;!&ndash;Life&ndash;&gt;-->
+<!--            <h1>Life</h1>-->
+<!--            <table>-->
+<!--                <tbody>-->
+<!--                <tr>&lt;!&ndash;Diksha and Connor&ndash;&gt;-->
+<!--                    <td><img src="../photos/personal/2018_graduation.jpg" alt=""><p>Spring 2018</p></td>-->
+<!--                    <td><img src="../photos/personal/D&C_christmas_2020.jpg" alt=""><p>Windter 2020</p></td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td><img src="../photos/personal/bridenstine.jpg" alt=""><p>Aug 6th, 2023</p></td>-->
+<!--                    <td><img src="../photos/personal/bridenstine.jpg" alt=""><p>Aug 6th, 2023</p></td>-->
+<!--                </tr>-->
+<!--                </tbody>-->
+<!--            </table>-->
+
+
         </div>
+
         <!--Copyright Information -->
-        <div class="copyright">
-            <p>
-                Copyright @ 2019 All Rights Reserved | Design by Connor A. Feltman
-            </p>
-        </div>
+        <script src="../../js/copyright.js"></script>
 
     </body>
 </html>

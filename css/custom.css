@@ -79,38 +79,186 @@ p {
 .row{
   display:        flex;
   flex-direction: row;
-  flex-wrap:      wrap;
   width:          100%;
   overflow: hidden;
 }
-
-/*
-.row{
-    background-image: url("../photos/assets/cream_to_white_tab.gif");
-    background-size:       100% 10em;
-    background-attachment: fixed;
-    background-repeat:     no-repeat;
-    }
-*/
 
 .row:after {
   content: "";
   clear:   both;
 }
 
+
+/*----- CLASS: event-Items -----*/
+
+.event-Items{
+    font-family:   Verdana,"Times New Roman",Times;
+    padding:       1em;
+    border-bottom: 1px dotted;
+}
+.event-Items h1{font-size: 25px;}
+.event-Items h2,h3{font-size: 1em;}
+.event-Items p{font-size: 15px;}
+.event-Items b{font-size: 15px;}
+.event-Items a{text-decoration: none;
+               font-size:0.8em;}
+.event-Items a:hover{text-decoration: underline;}
+.event-Items a:visited{color:blue;}
+
+/*----- CLASS: event-button -----*/
+.event-button{
+    height: 4em;
+    background-color:   none;
+    background-repeat:  no-repeat;
+    background-image:   url("../photos/assets/button.png");
+    background-size:    100% 50%;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align:     center;
+    padding-top:0.5em;
+    min-width:50px
+    }
+.event-button a{
+
+    text-decoration: none;
+    color: white;
+    padding-top:50em;
+    }
+.event-button a:visited {
+    color: white;
+    }
+.event-button a:hover {
+    color: rgb(240,240,240);
+    }
+
+/*----- CLASS: navigation bar -----*/
+
+/* General*/
+.navigation{
+    position: relative;
+    bottom:   -126px;
+    min-width: 800px;
+}
+
+.navigation p{
+    font-family:      Verdana,Helvetica,Arial;
+    line-height:      none;
+    color:            white;
+    background-color: rgba(40,40,40,0.7);
+    padding:          1.5em 1.5em 1.5em 1.5em; /*Controls the vertical spacing of the tabs */
+    text-align:       center;
+}
+
+.navigation a{
+  color:            white;
+  background-color: transparent;
+  padding:          1em 1em 1em 1em; /*Controls the horizontal spacing between the tabs */
+  text-decoration:  none;
+  font-size:        1em;
+}
+
+.navigation a:hover{text-decoration: underline;}
+.navigation a:visited{color: none;}
+
+
+/*----- CLASS: copyright -----*/
+.copyright{
+  height:           auto%;
+  text-align:       center;
+  background-color: rgb(0,0,0);
+}
+
+.copyright p{
+    padding: 1%;
+    color:   white;
+}
+
+
+/*#############################*/
+/*----- PAGE-SPECIFIC CSS -----*/
+/*#############################*/
+
+/*----- GENERAL Page-----*/
+.GeneralPage-left{
+    float:            left;
+    margin:           0;
+    width:            16%;
+    height:           auto%;
+    background-color: rgba(215,215,215);
+    padding:          2%;
+    position:         relative;
+    border-right:     1px dotted;
+    min-width:200px;
+}
+
+.GeneralPage-right{
+    margin:           0em;
+    width:            55%;
+    height:           auto%;
+    background-color: rgba(255,255,255,0.7);
+    position:         relative;
+    min-width:400px;
+}
+
+.GeneralPage-right p{
+    line-height: 170%;
+    padding: 0 0 0 5%;
+}
+
+.GeneralPage-right h1{
+    padding:   5% 0% 1% 5%;
+    font-size: 200%;
+}
+
+.GeneralPage-right h2{
+    padding:   0% 0% 0% 5%;
+    font-size: 100%;
+}
+
+/*----- GENERAL Page Image-----*/
+
+.GeneralPage-right-image {
+    float: right;
+    display:          block;
+    margin-left:      auto;
+    margin-right:     auto;
+    width:            24%;
+    height:           20%;
+    padding:          2% 0% 0% 0%;
+    background-color: rgb(255,255,255);
+    overflow: hidden;
+    }
+.GeneralPage-right-image img{
+    border:   0.1em black solid;
+    max-width:  80%;
+    min-width: 100px;
+    }
+
+
+
+/*----- HOME PAGE-----*/
+
+
+
+
+
+/*----- RESEARCH -----*/
 /*----- Research Page Image Gallery -----*/
-.wrapper {
+.imageGallery_Research {
   max-width: auto;
   margin: 0 auto 0 25px;
   padding: 0 50 0 0;
+  overflow: hidden;
   li {
     display: inline-block;
     overflow: hidden;
-    max-height: 300px;
+    min-height: 15em;
+    height: 15em;
     padding: 25px 25px;
   }
   img {
-    max-width: 300px;
+    min-width: 15em;
+    width: 15em;
   }
   .overlay-container {
     display: block;
@@ -167,183 +315,9 @@ p {
 }
 
 
-/*----- CLASS: event-Items -----*/
-
-.event-Items{
-    font-family:   Verdana,"Times New Roman",Times;
-    padding:       1em;
-    border-bottom: 1px dotted;
-}
-.event-Items h1{font-size: 1.3em;}
-.event-Items h2,h3{font-size: 1em;}
-.event-Items p{font-size: 1.5em;}
-.event-Items a{text-decoration: none;
-               font-size:0.8em;}
-.event-Items a:hover{text-decoration: underline;}
-
-.event-button {}
-
-
-
-/*----- CLASS: navigation bar -----*/
-
-/* General*/
-.navigation{
-    position: relative;
-    bottom:   -7.8em;
-}
-
-.navigation p{
-    font-family:      Verdana,Helvetica,Arial;
-    line-height:      none;
-    color:            white;
-    background-color: rgba(40,40,40,0.7);
-    padding:          1.5em 1.5em 1.5em 1.5em; /*Controls the vertical spacing of the tabs */
-    text-align:       center;
-}
-
-.navigation a{
-  color:            white;
-  background-color: transparent;
-  padding:          1em 1em 1em 1em; /*Controls the horizontal spacing between the tabs */
-  text-decoration:  none;
-  font-size:        1em;
-}
-
-.navigation a:hover{text-decoration: underline;}
-.navigation a:visited{color: none;}
-
-
-/*----- CLASS: copyright -----*/
-.copyright{
-  height:           auto%;
-  text-align:       center;
-  background-color: rgb(0,0,0);
-}
-
-.copyright p{
-    padding: 1%;
-    color:   white;
-}
-
-
-/*#############################*/
-/*----- PAGE-SPECIFIC CSS -----*/
-/*#############################*/
-
-/*----- GENERAL Page-----*/
-.GeneralPage-left{
-    float:            left;
-    margin:           0;
-    width:            16%;
-    height:           auto%;
-    background-color: rgba(215,215,215);
-    padding:          2%;
-    position:         relative;
-    border-right:     1px dotted;
-}
-
-.GeneralPage-left a:visited{color: blue;}
-
-.GeneralPage-right{
-    margin:           0em;
-    width:            55%;
-    height:           auto%;
-    background-color: rgba(255,255,255,0.7);
-    position:         relative;
-}
-
-.GeneralPage-right p{
-    line-height: 170%;
-    padding:     5%;
-}
-
-.GeneralPage-right h1{
-    padding:   5% 0% 1% 5%;
-    font-size: 200%;
-}
-
-.GeneralPage-right h2{
-    padding:   0% 0% 0% 5%;
-    font-size: 100%;
-}
-
-
-/*----- HOME PAGE-----*/
-
-.H-selfie{
-    float: right;
-    display:          block;
-    margin-left:      auto;
-    margin-right:     auto;
-    width:            24%;
-    height:           17%;
-    padding:          2% 0% 0% 0%;
-    background-color: rgb(255,255,255);
-    overflow: hidden;
-}
-
-.H-selfie img {
-    border:   0.1em black solid;
-    max-width:  80%;
-    max-height: 80%;
-}
-
-
-
-
-/*----- RESEARCH -----*/
-
-/*Control the Informational Columns*/
-.ResearchPage-right p{
-    line-height: 150%;
-    padding:     0% 0% 0% 5%;
-}
-.ResearchPage-right h1{
-    padding:   5% 0% 1% 5%;
-    font-size: 150%;
-}
-.ResearchPage-right h2,h3{
-    padding:   0% 0% 0% 5%;
-    font-size: 130%;
-}
-.ResearchPage-right h3{
-    padding: 0% 0% 5% 0%;
-    font-size: 100%;
-}
-.ResearchPage-right ul{list-style-type:none;}
-.ResearchPage-right a{
-    color:     blue;
-    padding:   0% 0% 0% 6%;
-    font-size: 100%;
-    text-decoration: none;
-}
-.ResearchPage-right a:hover{text-decoration:underline;}
-.ResearchPage-right a:visited{color: blue;}
-.ResearchPage-right ol{padding: 0% 0% 0% 7%;}
-
-/* Control the Rocket Portrait*/
-.ResearchPage-photos{
-    float: right;
-    display:          block;
-    margin-left:      auto;
-    margin-right:     auto;
-    width:            18%;
-    height:           17%;
-    padding:          2% 0% 0% 0%;
-    background-color: rgb(255,255,255);
-    overflow: hidden;
-}
-
-.ResearchPage-photos img {
-    border:   0.1em black solid;
-    max-width:  80%;
-    max-height: 80%;
-}
-#Interest li{padding: 0% 0% 0% 2%;}
-
-
 /*----- PUBLICATIONS -----*/
+.publicationList a{color:rgb(150,0,0);}
+.publicationList a:visited{color:rgb(150,0,0);}
 
 
 /*----- TEACHING -----*/
@@ -401,11 +375,6 @@ p {
 .T-right th{padding: 0.5em;}
 .T-right ul{list-style-type:none;}
 .T-right li{padding: 0% 0% 0% 2%}
-
-
-
-
-
 
 
 
@@ -487,18 +456,77 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*----- ABOUT -----*/
+.imageGallery_Gallery {
+  max-width: auto;
+  margin: 0 auto 0 25px;
+  padding: 0 50 0 0;
+  overflow: hidden;
+  li {
+    display: inline-block;
+    overflow: hidden;
+    min-height: 15em;
+    height: 15em;
+    padding: 25px 25px;
+  }
+  img {
+    min-width: 15em;
+    width: 15em;
+  }
+  .overlay-container {
+    display: block;
+    position: relative;
+    &::before {
+      content: attr(data-overlay-text);
+      font: 1em/1.5em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: absolute;
+      z-index: 1;
+      /*On top of parent*/
+      top: 40%;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      background: rgba(128, 128, 128, 0.80);
+      opacity: 0;
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    &:hover::before {
+      opacity: 1;
+      -moz-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      -o-transform: translateY(20px);
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+    .overlay-img {
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    &:hover .overlay-img {
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+}
+
 /*Control the Informational Columns*/
 .A-Images{
     float: right;
@@ -541,50 +569,19 @@ p {
     padding:   0% 0% 0% 5%;
     font-size: 180%;
 }
-.A-left{
-    float: left;
-    margin:           0;
-    width:            16%;
-    height:           auto%;
-    background-color: rgba(215,215,215);
-    padding:          2%;
-    position:         relative;
-    border-right:     1px dotted;
-}
-.A-left a:visited{color: blue;}
-.A-left p{font-size: 0.75em;}
-.A-left h2{font-size: 1em;}
-
 
 
 
 
 /*----- CONTACT -----*/
-.C-right{
-    margin:           0;
-    width:            55%;
-    height:           auto%;
-    background-color: rgba(255,255,255,0.7);
-    position:         relative;
-}
-.C-right p{padding: 5%;}
-.C-right h1{
-    padding:   5% 0% 5% 5%;
-    font-size: 150%;
-}
-.C-right h2{
-    padding:   0% 0% 0% 5%;
-    font-size: 100%;
-}
 .C-left{
     float: left;
     margin:           0;
-    width:            16%;
+    width:            100%;
     height:           auto%;
     background-color: rgba(215,215,215);
     padding:          2%;
     position:         relative;
-    border-right:     1px dotted;
 }
 .C-left img {
     max-width:  100%;
