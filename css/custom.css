@@ -132,8 +132,6 @@ p {
     }
 
 /*----- CLASS: navigation bar -----*/
-
-/* General*/
 .navigation{
     position: relative;
     bottom:   -126px;
@@ -206,13 +204,13 @@ p {
 }
 
 .GeneralPage-right h1{
-    padding:   5% 0% 1% 5%;
-    font-size: 200%;
+    padding:  2% 0% 1% 5%;
+    font-size: 250%;
 }
 
 .GeneralPage-right h2{
-    padding:   0% 0% 0% 5%;
-    font-size: 100%;
+    padding:   0% 0% 1% 5%;
+    font-size: 150%;
 }
 
 /*----- GENERAL Page Image-----*/
@@ -233,6 +231,32 @@ p {
     max-width:  80%;
     min-width: 100px;
     }
+
+/*----- GENERAL Page Image-----*/
+.notes {
+    color: rgb(100,100,100);
+    font-size: 13px;
+}
+
+.credit{
+    color: rgb(100,100,100);
+    font-size: 11px;}
+
+/*----- inLine Image-----*/
+.inLine_image{
+    float:right;
+    }
+.inLine_image img{
+    min-width: 150px;
+    width: 250px;
+    }
+
+/*----- inLine Video-----*/
+.inLine_video video{
+padding: 0 0 0 5%;
+max-width: 600pxpx;
+width: 60%;
+height: 50%;}
 
 
 
