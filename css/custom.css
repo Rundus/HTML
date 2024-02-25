@@ -293,7 +293,7 @@ height: 50%;}
 
 /*----- RESEARCH -----*/
 /*----- Research Page Image Gallery -----*/
-.imageGallery_Research {
+.imageSelectionGallery {
   max-width: auto;
   margin: 0 auto 0 25px;
   padding: 0 50 0 0;
@@ -359,6 +359,7 @@ height: 50%;}
       -o-transform: scale(1.2);
       -webkit-transform: scale(1.2);
       transform: scale(1.2);
+      z-index: 9999;
     }
   }
 }
@@ -532,10 +533,9 @@ height: 50%;}
   -o-transition: all .3s ease-in;
   transition: all .3s ease-in;
   opacity: 1;
-  transform: scale(1.5);
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-
+  transform: scale(1.25);
+  -ms-transform: scale(1.25); /* IE 9 */
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
 }
 
 .Gallery table{ margin-left: 5%;}
