@@ -267,6 +267,10 @@ p {
     font-size: 100%;
 }
 
+.WidePage-right ul{
+    padding:   0% 0% 1% 5%;
+    list-style-type: none;}
+
 /*----- MISC -----*/
 
 .notes {
