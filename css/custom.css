@@ -213,6 +213,11 @@ p {
     font-size: 150%;
 }
 
+.GeneralPage-right h3{
+    padding:   0% 0% 1% 5%;
+    font-size: 150%;
+}
+
 /*----- GENERAL Page Image-----*/
 
 .GeneralPage-right-image {
@@ -257,7 +262,13 @@ p {
     font-size: 150%;
 }
 
+.WidePage-right h3{
+    padding:   0% 0% 1% 5%;
+    font-size: 100%;
+}
+
 /*----- MISC -----*/
+
 .notes {
     color: rgb(100,100,100);
     font-size: 13px;
@@ -275,6 +286,11 @@ p {
     min-width: 150px;
     width: 250px;
     }
+
+/*----- inLine Audio-----*/
+.inLine_audio{
+    padding: 0 0 0 5%;
+}
 
 /*----- inLine Video-----*/
 .inLine_video video{
@@ -366,6 +382,7 @@ height: 50%;}
 
 
 /*----- PUBLICATIONS -----*/
+.publicationList{padding: 0 0 0 5%;}
 .publicationList a{color:rgb(150,0,0);}
 .publicationList a:visited{color:rgb(150,0,0);}
 
