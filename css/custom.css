@@ -226,7 +226,7 @@ p {
     margin-left:      auto;
     margin-right:     auto;
     width:            24%;
-    height:           20%;
+    height:           100%;
     padding:          2% 0% 0% 0%;
     background-color: rgb(255,255,255);
     overflow: hidden;
@@ -270,6 +270,12 @@ p {
 .WidePage-right ul{
     padding:   0% 0% 1% 5%;
     list-style-type: none;}
+
+.WidePage-right-image img{
+    border:   0.1em black solid;
+    max-width:  80%;
+    min-width: 100px;
+    }
 
 /*----- MISC -----*/
 
