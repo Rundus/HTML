@@ -1,8 +1,7 @@
 document.write("<div class=\"commonTitle\">");
 document.write("    <div class=\"commonPageTitle\">");
-document.write("        <h1>Connor A. Feltman<\/h1>");
+document.write("        <h1>Connor A. Feltman, PhD<\/h1>");
 document.write("        <h3>");
-document.write("            Ph.D. candidate");
 document.write("            <br>");
 document.write("            The University of Iowa");
 document.write("        <\/h3>");
